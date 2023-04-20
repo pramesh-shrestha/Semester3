@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+option java_package = "printmessage.grcpprintmessage.protobuf";
+
+message TextInput {
+  string message = 1;
+}
+
+message TextOutput {
+  repeated string messages = 2;
+}
+
+service Message {
+  rpc PrintMessage(TextInput) returns (TextOutput);
+}

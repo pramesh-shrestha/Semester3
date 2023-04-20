@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GreetingServer/GreetingServer.iml" filepath="$PROJECT_DIR$/GreetingServer/GreetingServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Multicast/Multicast.iml" filepath="$PROJECT_DIR$/Multicast/Multicast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ObjectTransfer/ObjectTransfer.iml" filepath="$PROJECT_DIR$/ObjectTransfer/ObjectTransfer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Restfull_WebService/Restfull_WebService.iml" filepath="$PROJECT_DIR$/Restfull_WebService/Restfull_WebService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SimpleGreetingClient/SimpleGreetingClient.iml" filepath="$PROJECT_DIR$/SimpleGreetingClient/SimpleGreetingClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo-gRPC-SDJ3/demo-gRPC-SDJ3.iml" filepath="$PROJECT_DIR$/demo-gRPC-SDJ3/demo-gRPC-SDJ3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/grcpPrintMessage/grcpPrintMessage.iml" filepath="$PROJECT_DIR$/grcpPrintMessage/grcpPrintMessage.iml" />
+    </modules>
+  </component>
+</project>

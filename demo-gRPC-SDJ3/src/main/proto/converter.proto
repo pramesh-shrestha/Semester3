@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+option java_package = "demogrpc.protobuf";
+
+service TextConverter {
+  rpc ToUpper(TextInput) returns (TextOutput);
+  rpc ToLower(TextInput) returns (TextOutput);
+}
+
+message TextInput {
+  string input = 1;
+}
+
+message TextOutput {
+  string output = 1;
+}

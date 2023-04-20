@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Restfull_WebService" />
+        <module name="SimpleGrpcClient" />
+        <module name="grcpPrintMessage" />
+        <module name="GreetingServer" />
+        <module name="demo-gRPC-SDJ3" />
+        <module name="SimpleGreetingClient" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo" target="17" />
+      <module name="DemoGrpc" target="17" />
+      <module name="gRPC" target="17" />
+      <module name="Grpc" target="17" />
+      <module name="grpc_printMessage" target="19" />
+      <module name="gRPC_simpleAddMessage" target="19" />
+      <module name="Restful_WebService" target="19" />
+      <module name="Semester 3" target="19" />
+      <module name="SimpleGreetingServer" target="17" />
+      <module name="SimpleGrpcClient" target="17" />
+      <module name="SimpleGrpcServer" target="17" />
+      <module name="TestSpringBootWithMaven" target="19" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="DemoGrpc" options="-parameters" />
+      <module name="GreetingServer" options="-parameters" />
+      <module name="Grpc" options="-parameters" />
+      <module name="Restful_WebService" options="-parameters" />
+      <module name="Restfull_WebService" options="-parameters" />
+      <module name="SimpleGreetingClient" options="-parameters" />
+      <module name="SimpleGreetingServer" options="-parameters" />
+      <module name="SimpleGrpcClient" options="-parameters" />
+      <module name="SimpleGrpcServer" options="-parameters" />
+      <module name="TestSpringBootWithMaven" options="-parameters" />
+      <module name="demo" options="-parameters" />
+      <module name="demo-gRPC-SDJ3" options="-parameters" />
+      <module name="gRPC" options="-parameters" />
+      <module name="grcpPrintMessage" options="-parameters" />
+    </option>
+  </component>
+</project>
